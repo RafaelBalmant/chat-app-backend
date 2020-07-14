@@ -1,0 +1,22 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RafaelBalmant/chat-app-backend.git",
+  "author": "balmantrafael <balmantrafael@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
